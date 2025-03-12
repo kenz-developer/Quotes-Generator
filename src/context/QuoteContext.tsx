@@ -38,9 +38,9 @@ interface QuoteProviderProps {
 }
 
 // GitHub API configuration
-const GITHUB_API_URL = 'https://api.github.com/repos/USERNAME-GITHUB/NAMA-REPO/contents/NAMADB.json';
-const GITHUB_TOKEN = 'TOKEN GITHUB KALIAN';
-const RAW_JSON_URL = 'https://raw.githubusercontent.com/USERNAME-GITHUB/NAMA-REPO/refs/heads/master/NAMADB.json';
+const GITHUB_API_URL = 'https://api.github.com/repos/kenz-developer/Quotes-Generator/contents/quotdb.json';
+const GITHUB_TOKEN = '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';
+const RAW_JSON_URL = 'https://raw.githubusercontent.com/kenz-developer/Quotes-Generator/refs/heads/master/quotdb.json';
 
 export const QuoteProvider: React.FC<QuoteProviderProps> = ({ children }) => {
   const [quotes, setQuotes] = useState<Quote[]>([]);
