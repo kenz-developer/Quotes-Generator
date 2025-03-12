@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           
           <div className="flex items-center space-x-4">
             <a 
-              href="https://github.com/YoshCasaster/Quotely-Generator" 
+              href="https://github.com/kenz-developer/Quotes-Generator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <Github className="h-5 w-5" />
             </a>
             <p className="text-gray-600 dark:text-gray-400 text-sm flex items-center">
-              Dibuat dengan <Heart className="h-4 w-4 text-red-500 mx-1" /> YoshCasaster
+              Dibuat dengan <Heart className="h-4 w-4 text-red-500 mx-1" /> Kenz Creator
             </p>
           </div>
         </div>
